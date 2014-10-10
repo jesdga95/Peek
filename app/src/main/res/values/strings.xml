@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Peek</string>
+    <string name="native_peek_disabled">The version of Peek included with your ROM has been disabled to prevent conflict with this app.</string>
+    <string name="peek_service_running">Service is running</string>
+    <string name="service_name">@string/app_name</string>
+    <string name="go_pro">Go pro</string>
+    <string name="settings">Settings</string>
+    <string name="only_available_on_pro">Only available on Pro version</string>
+    <string name="notification_listener">Peek requires the notification listener service to work.\n\nEnable it to begin.</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="troubleshoot">Troubleshoot</string>
+    <string name="troubleshoot_message">If you have enabled notification listener service already, please reboot your phone.</string>
+    <string name="device_admin">Allow Peek to turn your screen off</string>
+    <string name="device_admin_disabled">Peek won\'t be able to turn off your screen!</string>
+    <string name="get_started">Start tutorial</string>
+    <string name="understood">Understood, let\'s get started!</string>
+    <string name="swipe_right_hint">Swipe right to dismiss the notification</string>
+    <string name="swipe_left_hint">Swipe left to unlock phone</string>
+    <string name="hold_to_expand_hint">Tap and hold to show more information</string>
+    <string name="swipe_up_hint">Swipe up to expand the notification</string>
+    <string name="swipe_down_hint">Swipe down to open the app</string>
+    <string name="hint_ticker_text">From: Buddy</string>
+    <string name="hint_summary_text">Hello! How are you?</string>
+    <string name="peek_enabled">Peek is enabled</string>
+    <string name="peek_disabled">Peek is disabled</string>
+    <string name="applications">Applications. Tap to blacklist</string>
+    <string name="test">Test notification</string>
+    <string name="test_message">Place your device on a flat surface and click Ok. Lift it up after you hear the notification sound.</string>
+
+    <!-- Test notification -->
+    <string name="notification_ticker">Peek</string>
+    <string name="notification_text">This is a test notification</string>
+
+    <!-- Settings fragment -->
+    <string name="customization">Customization</string>
+    <string name="power_on_notifications">Power on notifications</string>
+    <string name="power_on_notifications_checked">Display your notifications upon waking your device</string>
+    <string name="power_on_notifications_unchecked">Don\'t display your notifications upon waking your device</string>
+    <string name="immersive_mode">Immersive mode</string>
+    <string name="immersive_mode_checked">Hide navigation bar while displaying notifications</string>
+    <string name="immersive_mode_unchecked">Show navigation bar while displaying notifications</string>
+    <string name="background">Black background</string>
+    <string name="background_checked">The background behind notifications is black</string>
+    <string name="background_unchecked">The background behind notifications is your current wallpaper</string>
+    <string name="reverse_gestures">Reverse gestures</string>
+    <string name="reverse_gestures_checked">Swipe left to dismiss notification, swipe right to unlock</string>
+    <string name="reverse_gestures_unchecked">Swipe left to unlock, swipe right to dismiss notification</string>
+    <string name="screen_timeout">Screen timeout</string>
+    <string name="screen_timeout_summary">Time on seconds that the display stays on after a notification has been shown</string>
+    <string name="system_apps">System apps</string>
+    <string name="system_apps_show">Show system apps on blacklist grid</string>
+    <string name="system_apps_hide">Hide system apps from blacklist grid</string>
+
+    <string name="sensors">Sensors</string>
+    <string name="wake_up">Screen wake up</string>
+    <string name="wake_up_checked">Screen will turn on when receiving a notification</string>
+    <string name="wake_up_unchecked">Screen won\'t turn on when receiving a notification</string>
+    <string name="detection_type">Detection type</string>
+    <string name="detection_info_title">Detection types</string>
+    <string name="detection_info_message">Battery saving: when receiving a notification, Peek will start to detect motion for a fixed amount of seconds, specified by the user. After this time, they will stop polling to save battery.\n\nAlways active: the sensors are permanently being polled for motion changes after a notification until you read it. It consumes more battery because it needs to keep the CPU active.\n\nAlways active while charging: same as above but only during charging times. When device is not charging, it uses the battery saving scheme.</string>
+    <string name="detection_type_battery_saving">Battery saving</string>
+    <string name="detection_type_always_active">Always active</string>
+    <string name="detection_type_active_while_charging">Always active while charging</string>
+    <string name="detection_type_warning">Warning</string>
+    <string name="detection_type_warning_message">Using always active mode may cause high battery drain. If you face this issue, please use either battery saving or active while charging modes.</string>
+    <string name="sensor_polling_time">Sensor polling time</string>
+    <string name="sensor_polling_time_summary">Sensors will keep working this time in seconds. Bigger values mean more battery drain</string>
+    <string name="sensor_adjustment">Sensor adjustment</string>
+    <string name="sensor_adjustment_summary">Calibrate and adjust sensors for in-pocket and motion detection</string>
+    <string name="sensor_adjustment_start_first_run">To ensure the best experience we recommend that you calibrate the proximity and motion sensors.\n\nDo you want to adjust them now?\n(You can perform this process later in settings).</string>
+    <string name="sensor_adjustment_start">Sensors will be calibrated and adjusted to ensure proper functionality of the application. This process can\'t be canceled, continue?</string>
+    <string name="sensor_adjustment_table">Motion detection</string>
+    <string name="sensor_adjustment_table_text">Place your device on a flat surface and press next.</string>
+    <string name="sensor_adjustment_lift_text">Lift your device and press next.</string>
+    <string name="sensor_adjustment_proximity">Proximity detection</string>
+    <string name="sensor_adjustment_proximity_text">Cover the proximity sensor with your hand and press next.</string>
+    <string name="sensor_adjustment_done">New values have been saved!</string>
+    <string name="sensor_adjustment_next">Next</string>
+
+    <string name="security">Security</string>
+    <string name="show_notification_title">Show notification title</string>
+    <string name="show_notification_title_checked">Notification title will be displayed in secure lock screen</string>
+    <string name="show_notification_title_unchecked">Notification title won\'t be displayed in secure lock screen</string>
+    <string name="show_notification_content">Show notification content</string>
+    <string name="show_notification_content_checked">Notification content will be displayed in secure lock screen</string>
+    <string name="show_notification_content_unchecked">Notification content won\'t be displayed in secure lock screen</string>
+    <string name="security_disabled">Only available for secure lock</string>
+
+    <!-- Help -->
+    <string name="help">Help</string>
+    <string name="help_title">How to use Peek</string>
+    <string name="help_message">When you receive a notification, and screen is off, sensor polling will start. If some movement is detected on your device (either it was on a table and you lifted it, or it was in your pocket and you got it out), Peek will show. Sensors will be polled for 10 seconds (by default, customizable) and then it stops doing so, to save battery. It is not possible to simulate the behavior of devices like the Moto X, without affecting battery, since they have special hardware for the task.</string>
+
+    <!-- Partners -->
+    <string name="partners">Partners</string>
+    <string name="xionidis">John Xionidis</string>
+    <string name="arz">Arz Bhatia</string>
+    <string name="huot">Lo Huot</string>
+    <string name="taylor">Taylor Ling</string>
+    <string name="conceptualization_graphic_design">Conceptualization and graphic design</string>
+    <string name="graphic_design">Graphic design</string>
+    <string name="ui_ux_advisor">User experience advisement</string>
+
+    <!-- Misc -->
+    <string name="warning_no_intent">Please enable notification listener for Peek on settings</string>
+    <string name="twelve_hour_time_format">h:mm</string>
+    <string name="twenty_four_hour_time_format">HH:mm</string>
+    <string name="app_rate">Do you like Peek? Rate it!</string>
+    <string name="license_title">Application not licensed</string>
+    <string name="license_message">This application is not licensed. Please purchase it from Google\'s Play Store.</string>
+    <string name="license_retry">Retry</string>
+    <string name="license_buy">Buy app</string>
+    <string name="license_quit">Quit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+    <string name="demo">Live demo</string>
+    <string name="skip">Skip and start</string>
+    <string name="empty" />
+
+</resources>

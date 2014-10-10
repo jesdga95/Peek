@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="native_peek_disabled">La versión de Peek incluida en la ROM ha sido deshabilitada para evitar conflictos con esta aplicación.</string>
+    <string name="peek_service_running">El servicio se esta ejecutando</string>
+    <string name="go_pro">Comprar pro</string>
+    <string name="settings">Ajustes</string>
+    <string name="only_available_on_pro">Solo disponible en la versión Pro</string>
+    <string name="notification_listener">Peek requiere el servicio de notificaciones para funcionar. Activalo a continuación para comenzar.</string>
+    <string name="go_to_settings">Ir a ajustes</string>
+    <string name="troubleshoot">Solucionar problemas</string>
+    <string name="troubleshoot_message">Si ya has activado el servicio de notificaciones, por favor reinicia tu teléfono.</string>
+    <string name="device_admin">Permitir a Peek apagar tu pantalla</string>
+    <string name="device_admin_disabled">¡Peek no podrá apagar tu pantalla!</string>
+    <string name="get_started">Iniciar tutorial</string>
+    <string name="understood">Entendido, ¡empecemos!</string>
+    <string name="swipe_right_hint">Desliza hacia la derecha para descartar la notificación</string>
+    <string name="swipe_left_hint">Desliza hacia la izquierda para desbloquear el teléfono</string>
+    <string name="hold_to_expand_hint">Manten pulsado para mostrar más información</string>
+    <string name="swipe_up_hint">Desliza hacia arriba para expandir la notificación</string>
+    <string name="swipe_down_hint">Desliza hacia abajo para abrir la aplicación</string>
+    <string name="hint_ticker_text">De: Amigo</string>
+    <string name="hint_summary_text">¡Hola! ¿Como estas?</string>
+    <string name="peek_enabled">Peek está habilitado</string>
+    <string name="peek_disabled">Peek está deshabilitado</string>
+    <string name="applications">Aplicaciones. Toca para excluir</string>
+    <string name="test">Notificación de prueba</string>
+    <string name="test_message">Coloca el dispositivo en una superficie plana y pulsa Ok. Levántalo después de escuchar el sonido de la notificación.</string>
+
+    <string name="notification_ticker">Peek</string>
+    <string name="notification_text">Esta es una notificación de prueba</string>
+
+    <string name="customization">Personalización</string>
+    <string name="power_on_notifications">Notificaciones al encender</string>
+    <string name="power_on_notifications_checked">Mostrar tus notificaciones al despertar el dispositivo</string>
+    <string name="power_on_notifications_unchecked">No mostrar tus notificaciones al despertar el dispositivo</string>
+    <string name="immersive_mode">Modo inmersivo</string>
+    <string name="immersive_mode_checked">Ocultar barra de navegación mientras se muestran las notificaciones</string>
+    <string name="immersive_mode_unchecked">Mostrar barra de navegación mientras se muestran las notificaciones</string>
+    <string name="background">Fondo negro</string>
+    <string name="background_checked">El fondo detrás de las notificaciones es negro</string>
+    <string name="background_unchecked">El fondo detrás de las notificaciones es tu fondo de pantalla actual</string>
+    <string name="reverse_gestures">Invertir gestos</string>
+    <string name="reverse_gestures_checked">Desliza a la izquierda para descartar la notificación, desliza a la derecha para desbloquear</string>
+    <string name="reverse_gestures_unchecked">Desliza a la izquierda para desbloquear, desliza a la derecha para descartar la notificación</string>
+    <string name="screen_timeout">Tiempo espera pantalla</string>
+    <string name="screen_timeout_summary">Período en segundos en el que la pantalla permanecerá encendida después de mostrar la notificación</string>
+    <string name="system_apps">Aplicaciones del sistema</string>
+    <string name="system_apps_show">Mostrar las aplicaciones del sistema en la cuadrícula de lista negra</string>
+    <string name="system_apps_hide">No mostrar las aplicaciones del sistema en la cuadrícula de lista negra</string>
+
+    <string name="sensors">Sensores</string>
+    <string name="wake_up">Encendido de pantalla</string>
+    <string name="wake_up_checked">La pantalla se encenderá cuando se reciba una notificación</string>
+    <string name="wake_up_unchecked">La pantalla no se encenderá cuando se reciba una notificación</string>
+    <string name="detection_type">Tipo de detección</string>
+    <string name="detection_info_title">Tipos de detección</string>
+    <string name="detection_info_message">Ahorro de batería: cuando se recibe una notificación, Peek comenzará a detectar el movimiento por una cantidad determinada de segundos, especificada por el usuario. Después de este tiempo, se detendrá el sondeo para ahorrar batería.\n\nSiempre activo: los sensores están siendo sondeados de forma permanente para detectar movimiento después de recibir una notificación, hasta que la leas. Se consume más batería, ya que se necesita mantener la CPU activa.\n\nSiempre activo durante la carga: igual que el anterior, pero sólo durante los tiempos de carga. Cuando el dispositivo no se está cargando, se utiliza el esquema de ahorro de batería.</string>
+    <string name="detection_type_battery_saving">Ahorro de batería</string>
+    <string name="detection_type_always_active">Siempre activo</string>
+    <string name="detection_type_active_while_charging">Siempre activo durante la carga</string>
+    <string name="detection_type_warning">Advertencia</string>
+    <string name="detection_type_warning_message">Usar el modo siempre activo puede causar alto consumo de batería. Si te encuentras con este problema, por favor utiliza el modo ahorro de batería o activo mientras se carga.</string>
+    <string name="sensor_polling_time">Tiempo de sensor</string>
+    <string name="sensor_polling_time_summary">Los sensores funcionarán en este intervalo en segundos. Valores altos significan más gasto de batería</string>
+    <string name="sensor_adjustment">Ajuste de sensores</string>
+    <string name="sensor_adjustment_summary">Calibrar y ajustar los sensores para la detección de bolsillo y movimiento</string>
+    <string name="sensor_adjustment_start_first_run">Para asegurar una mejor experiencia recomendamos que calibres los sensores de proximidad y movimiento. ¿Quieres ajustar los sensores ahora? (Puedes realizar este proceso más tarde en ajustes).</string>
+    <string name="sensor_adjustment_start">Los sensores serán calibrados y ajustados para garantizar un funcionamiento correcto de la aplicación. Este proceso no se puede cancelar, ¿Deseas continuar?</string>
+    <string name="sensor_adjustment_table">Detección de movimiento</string>
+    <string name="sensor_adjustment_table_text">Coloca el dispositivo en una superficie plana y pulsa siguiente.</string>
+    <string name="sensor_adjustment_lift_text">Levanta el dispositivo y pulsa siguiente.</string>
+    <string name="sensor_adjustment_proximity">Detección de proximidad</string>
+    <string name="sensor_adjustment_proximity_text">Cubra el sensor de proximidad con la mano y pulsa siguiente.</string>
+    <string name="sensor_adjustment_done">¡Los nuevos valores han sido guardados!</string>
+    <string name="sensor_adjustment_next">Siguiente</string>
+
+    <string name="security">Seguridad</string>
+    <string name="show_notification_title">Mostrar título de la notificación</string>
+    <string name="show_notification_title_checked">El título de la notificación se mostrará en la pantalla de bloqueo seguro</string>
+    <string name="show_notification_title_unchecked">El título de la notificación no se mostrará en la pantalla de bloqueo seguro</string>
+    <string name="show_notification_content">Mostrar contenido de la notificación</string>
+    <string name="show_notification_content_checked">El contenido de la notificación se mostrará en la pantalla de bloqueo seguro</string>
+    <string name="show_notification_content_unchecked">El contenido de la notificación no se mostrará en la pantalla de bloqueo seguro</string>
+    <string name="security_disabled">Sólo disponible con bloqueo de seguridad</string>
+
+    <string name="help">Ayuda</string>
+    <string name="help_title">Como usar Peek</string>
+    <string name="help_message">Cuando recibes una notificación, y la pantalla esta apagada, se iniciará el sondeo de tus sensores. Si se detecta algun movimiento en el dispositivo (ya sea que estaba en una mesa y se levantó, o fue sacado del bolsillo), Peek se mostrará. El sondeo de sensores se realizará por 10 segundos (por defecto, personalizable) y luego se detendrá, para ahorrar batería. No es posible simular el comportamiento de dispositivos como el Moto X, sin afectar la batería, ya que ellos poseen un hardware especial para dicha tarea.</string>
+
+    <string name="partners">Asociados</string>
+    <string name="conceptualization_graphic_design">Conceptualización y diseño gráfico</string>
+    <string name="graphic_design">Diseño gráfico</string>
+    <string name="ui_ux_advisor">Asesoría experiencia de usuario</string>
+
+    <string name="warning_no_intent">Por favor activa el servicio de notificaciones para Peek en ajustes</string>
+    <string name="app_rate">¿Te gusta Peek? ¡Califícala!</string>
+    <string name="license_title">Aplicación no autorizada</string>
+    <string name="license_message">Esta aplicación no está autorizada. Por favor, cómprala a través de la Google Play Store.</string>
+    <string name="license_retry">Reintentar</string>
+    <string name="license_buy">Comprar aplicación</string>
+    <string name="license_quit">Salir</string>
+    <string name="yes">Si</string>
+    <string name="demo">Demostración</string>
+    <string name="skip">Saltar y comenzar</string>
+</resources>

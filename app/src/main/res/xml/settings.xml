@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="customization"
+        android:title="@string/customization">
+        <CheckBoxPreference
+            android:key="power_on"
+            android:title="@string/power_on_notifications" />
+        <CheckBoxPreference
+            android:key="immersive"
+            android:title="@string/immersive_mode"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="background"
+            android:title="@string/background" />
+        <CheckBoxPreference
+            android:key="reverse_gestures"
+            android:title="@string/reverse_gestures" />
+        <EditTextPreference
+            android:defaultValue="5"
+            android:inputType="number"
+            android:key="screen_timeout"
+            android:summary="@string/screen_timeout_summary"
+            android:title="@string/screen_timeout" />
+        <CheckBoxPreference
+            android:key="system_apps"
+            android:title="@string/system_apps" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sensors">
+        <CheckBoxPreference
+            android:key="wake_up"
+            android:title="@string/wake_up" />
+        <com.jedga.peek.free.layout.CustomListPreference
+            android:defaultValue="0"
+            android:entries="@array/detection_type_entries"
+            android:entryValues="@array/detection_type_values"
+            android:icon="@drawable/ic_info"
+            android:key="detection_type"
+            android:title="@string/detection_type" />
+        <EditTextPreference
+            android:defaultValue="10"
+            android:inputType="number"
+            android:key="sensor_polling_time"
+            android:summary="@string/sensor_polling_time_summary"
+            android:title="@string/sensor_polling_time" />
+        <Preference
+            android:key="sensor_adjustment"
+            android:summary="@string/sensor_adjustment_summary"
+            android:title="@string/sensor_adjustment" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/security">
+        <CheckBoxPreference
+            android:key="show_notification_title"
+            android:title="@string/show_notification_title" />
+        <CheckBoxPreference
+            android:key="show_notification_content"
+            android:title="@string/show_notification_content" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/partners">
+        <Preference
+            android:key="xionidis"
+            android:title="@string/xionidis"
+            android:summary="@string/conceptualization_graphic_design"
+            android:icon="@drawable/ic_xionidis" />
+        <Preference
+            android:key="arz"
+            android:title="@string/arz"
+            android:summary="@string/graphic_design"
+            android:icon="@drawable/ic_arz" />
+        <Preference
+            android:key="huot"
+            android:title="@string/huot"
+            android:summary="@string/graphic_design"
+            android:icon="@drawable/ic_hout" />
+        <Preference
+            android:key="taylor"
+            android:title="@string/taylor"
+            android:summary="@string/ui_ux_advisor"
+            android:icon="@drawable/ic_taylor" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

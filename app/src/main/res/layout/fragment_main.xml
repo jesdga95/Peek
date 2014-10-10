@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:paddingTop="@dimen/status_action_joint_height"
+    android:paddingBottom="@dimen/navigation_bar_height"
+    android:transformPivotY="1000dp"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+
+        <LinearLayout
+            android:id="@+id/switch_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/switch_padding"
+            android:paddingRight="@dimen/switch_padding"
+            android:paddingTop="@dimen/switch_padding"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:id="@+id/switch_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif-light"
+                android:paddingRight="@dimen/switch_padding"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/switch_button"
+                android:layout_width="@dimen/switch_dimens"
+                android:layout_height="@dimen/switch_dimens"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/switch_background_on" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app_drawer_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#33FFFFFF"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/switch_padding"
+            android:paddingStart="@dimen/switch_padding"
+            android:paddingTop="@dimen/switch_padding"
+            android:animateLayoutChanges="true">
+
+            <TextView
+                android:id="@+id/separator"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/applications"
+                android:textColor="@android:color/white" />
+
+            <GridView
+                android:id="@+id/app_drawer_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="true"
+                android:columnWidth="@dimen/app_drawer_column_width"
+                android:fadingEdgeLength="@dimen/app_drawer_fading_length"
+                android:gravity="center"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="auto_fit"
+                android:overScrollMode="never"
+                android:paddingLeft="@dimen/app_drawer_padding"
+                android:paddingRight="@dimen/app_drawer_padding"
+                android:requiresFadingEdge="vertical"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbarThumbVertical="@drawable/scrollbar_apps"
+                android:stretchMode="columnWidth" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="bottom"
+        android:animateLayoutChanges="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#55FFCCBC" />
+
+        <Button
+            android:id="@+id/test_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/button_background"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/test" />
+    </LinearLayout>
+
+</LinearLayout>

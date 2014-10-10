@@ -1,0 +1,107 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transformPivotY="0dp">
+
+    <RelativeLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/animator_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/animation_background"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/navigation_bar_height"
+            android:paddingTop="@dimen/status_action_joint_height">
+
+            <TextView
+                android:layout_marginTop="36dp"
+                android:id="@+id/welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-thin"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/welcome_text_size" />
+
+            <ImageView
+                android:id="@+id/hint_ring"
+                android:layout_width="@dimen/notification_icon_background_size"
+                android:layout_height="@dimen/notification_icon_background_size"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ring"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/hint_ticker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hint_ring"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif"
+                android:paddingTop="@dimen/item_padding"
+                android:text="@string/hint_ticker_text"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/hint_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hint_ticker"
+                android:layout_centerHorizontal="true"
+                android:alpha="0"
+                android:fontFamily="sans-serif"
+                android:paddingTop="@dimen/item_padding"
+                android:text="@string/hint_summary_text"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/divider"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/hint_button"
+                android:background="#CCC" />
+
+            <Button
+                android:id="@+id/hint_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_background"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/hint_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/hint_button"
+                android:layout_centerHorizontal="true"
+                android:alpha="0"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:paddingBottom="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/help_text_size" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
